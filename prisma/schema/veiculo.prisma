@@ -1,0 +1,9 @@
+model Veiculo {
+    id           Int    @id @default(autoincrement())
+    fabricante   String
+    numeroChassi String
+
+    proprietario   Proprietario? @relation(fields: [proprietarioId], references: [id])
+    proprietarioId Int?
+}
+

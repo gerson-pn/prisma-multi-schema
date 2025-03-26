@@ -1,0 +1,7 @@
+model Proprietario {
+    id Int @id @default(autoincrement())
+    nome String
+    documentoIdentificacao String @unique
+    veiculos Veiculo[]
+}
+
