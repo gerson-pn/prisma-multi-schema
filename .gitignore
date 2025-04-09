@@ -1,5 +1,5 @@
 node_modules
-prisma/generated/
+prisma/generated
+prisma/schema/migrations/
 .env
 src/js
-prisma/schema/migrations/
