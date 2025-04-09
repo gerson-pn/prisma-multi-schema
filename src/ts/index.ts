@@ -18,7 +18,7 @@ const cadastrar = async (proprietario: Proprietario & { veiculos: Veiculo[] }) =
     })
 
     console.log(`Proprietário cadastrado:`)
-    console.log(`Nome: ${proprietario}, documento: ${proprietario.documentoIdentificacao}`)
+    console.log(`Nome: ${proprietario.nome}, documento: ${proprietario.documentoIdentificacao}`)
     proprietario.veiculos.forEach(veiculo => {
         console.log(`Veiculo cadastrado:`)
         console.log(`   Fabricante: ${veiculo.fabricante}`)
