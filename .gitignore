@@ -2,4 +2,4 @@ node_modules
 prisma/generated/
 .env
 src/js
-prisma/migrations/**/*/
+prisma/schema/migrations/
